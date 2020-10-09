@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         tv1 = (TextView) findViewById(R.id.tv1); //casting
-        tv2 = (TextView) findViewById(R.id.tv2);
+        tv2 = (TextView) findViewById(R.id.tv2); //casting
 
         StartMQTT("home/room", tv1);
         StartMQTT("home/bathroom", tv2);
